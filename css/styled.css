@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'Gothic-Bold';
+    src: url('century-gothic-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'Century-Gothic';
+    src: url('century-gothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 100%;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#cabecalho img{
+    max-width: 94px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5%;
+}
+#faixa1{
+    background-color: #e18604;
+    width: auto;
+    height: 0.5px;
+    padding: 1.5%;
+}
+#parti1{
+    height: auto;
+    
+}
+#banner{
+    background-image: url('banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30%;
+}
+#branco{
+    font-family: 'Gothic-Bold';
+    color: #ffff;
+    font-size: 23px;
+    text-align: left;
+}
+b{
+    color: #e18604;
+}
+#livro{
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    box-shadow: #e18604  8px 8px ;
+}
+#poligono1, #poligono2{
+    max-width: 10px;
+    
+    
+}
+#main{
+    padding: 5%;
+}
+#main p{
+    font-family: 'Gothic-Bold';
+    font-size: 12px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #626161;
+}
+#faixa3{
+    margin-top: 4%;
+    background-color: #e18604;
+    padding: 8%;
+}
+#faixa3 p{
+    font-family: 'Gothic-Bold';
+    color: #ffff;
+    font-size: 23px;
+    text-align: center;
+}
+#fomulario{
+  
+    background-image: url('banner2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 6%;
+    
+}
+#fomulario p{
+    color: white;
+    font-family: 'Century-Gothic';
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    
+}
+#fomulario p a{
+    color: white;
+    font-family: 'Century-Gothic';
+    font-size: 16px;
+    text-align: center;
+}
+#name, #email, #celular, #empresa{
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+.botao{
+    color: white;
+    font-family: 'Gothic-Bold';
+    font-size: 20px;
+    text-align: center;
+    background-color: #e18604;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+    margin: 5px; 
+}
+.botao:hover{
+    background-color: white;
+    color: #e18604;
+    transition: 1s; 
+}
+#faixa4{
+    background-color: #e18604;
+    width: auto;
+    height: 0.2px;
+    padding: 1%;  
+}
+h2{
+    font-family: 'Century-Gothic';
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #626161;
+    padding: 20px;
+}
+@media only screen AND (min-width:768px){
+    #branco{
+        margin-left: 60%;
+        left: 55%;
+        top: 35%;
+        width:300px;
+    }
+    #main p{
+        font-size: 14px;
+    }
+    #livro{
+        max-width: 230px;
+    }
+}
+@media only screen AND (min-width:1024px){
+    
+    #branco{
+        font-size: 32px;
+        
+    }
+    #banner{
+        background-size: 140%;
+        padding: 150px;
+    }
+    #faixa3 p{
+        font-size: 30px;
+    }
+    #fomulario{
+        background-size: 100%;
+    }
+
+}
+@media only screen AND (min-width:1440px){
+    #branco{
+        font-size: 40px;
+    }
+    #banner{
+        background-size: 140%;
+        padding: 180px;
+    }
+    #faixa3{
+        padding: 4%;
+    }
+    #faixa3 p{
+        font-size: 40px;
+    }
+    #fomulario{
+        background-size: 100%;
+        padding: 12%;  
+    }
+    #name, #email, #celular, #empresa{
+        padding: 8px;  
+    }
+    #main p{
+        font-size: 18px;
+    }
+    #livro{
+        max-width: 280px;
+        box-shadow: #e18604  18px 18px ;
+    }
+}
+@media only screen AND (min-width:1920px){
+    #branco{
+        font-size: 35px;
+    }
+    #banner{
+        background-size: 100%;
+        padding: 125px;
+    }
+    #faixa3{
+        padding: 2%;
+    }
+    #faixa3 p{
+        font-size: 40px;
+    }
+    #fomulario{
+        background-size: 100%;
+        padding: 8%;  
+    }
+    #name, #email, #celular, #empresa{
+        padding: 6px;  
+    }
+    #main p{
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+    #livro{
+        max-width: 300px;
+        box-shadow: #e18604  18px 18px ;
+        margin-bottom: 4%;
+    }
+    #poligono1, #poligono2{
+        max-width: 17px;
+    }
+}
